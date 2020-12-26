@@ -29,10 +29,7 @@ const Application: FC<AppProps> = ({ title, description, image, about, link }) =
                     <h2>About this project</h2>
                     <p>{about}</p>
                     <h2>Technical Sheet</h2>
-                    <p className="code-technology">Code technologies I got involved with while working on this project.</p>
-                    <ul>
-                        <li></li>
-                    </ul>      
+                    <p className="code-technology">Code technologies I got involved with while working on this project.</p>     
                 </div>
             </div>      
         </div>

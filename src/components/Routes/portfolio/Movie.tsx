@@ -4,9 +4,14 @@ import Application from '../../reusables/Application'
 
 const Movie = () => {
     return (
-        <div>
-            <Application title="FACTORY LANDING PAGE" description="The static page of a product landing page" image={movieapp} about="About Product" link="//hardeymovie.netlify.app" />
-        </div>
+        <>    
+            <div>
+                <Application title="MOVIE SEARCH APP" description="A movie search application built with React" image={movieapp} about="About Product" link="//hardeymovie.netlify.app" />
+            </div>
+            <ul className="technologies-list">
+                <li>React</li>
+            </ul> 
+        </>
     )
 }
 
