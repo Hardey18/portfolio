@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d345888d.chunk.css",
+    "main.js": "/portfolio/static/js/main.c55320e4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c55320e4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.370c67e8.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.370c67e8.js.map",
+    "static/js/2.ef26741c.chunk.js": "/portfolio/static/js/2.ef26741c.chunk.js",
+    "static/js/2.ef26741c.chunk.js.map": "/portfolio/static/js/2.ef26741c.chunk.js.map",
+    "static/js/3.04a31b40.chunk.js": "/portfolio/static/js/3.04a31b40.chunk.js",
+    "static/js/3.04a31b40.chunk.js.map": "/portfolio/static/js/3.04a31b40.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.d345888d.chunk.css.map": "/portfolio/static/css/main.d345888d.chunk.css.map",
+    "static/js/2.ef26741c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ef26741c.chunk.js.LICENSE.txt",
+    "static/media/ADEWALE.5e421d51.jpg": "/portfolio/static/media/ADEWALE.5e421d51.jpg",
+    "static/media/amazon.d74bb213.png": "/portfolio/static/media/amazon.d74bb213.png",
+    "static/media/movieapp.ab88a1d1.png": "/portfolio/static/media/movieapp.ab88a1d1.png",
+    "static/media/netflix.03146e9e.png": "/portfolio/static/media/netflix.03146e9e.png",
+    "static/media/nurudeen.8029f071.png": "/portfolio/static/media/nurudeen.8029f071.png",
+    "static/media/product.cce41d36.png": "/portfolio/static/media/product.cce41d36.png",
+    "static/media/starwars.cce1f491.png": "/portfolio/static/media/starwars.cce1f491.png",
+    "static/media/tictactoe.345cbfab.png": "/portfolio/static/media/tictactoe.345cbfab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.370c67e8.js",
+    "static/js/2.ef26741c.chunk.js",
+    "static/css/main.d345888d.chunk.css",
+    "static/js/main.c55320e4.chunk.js"
+  ]
+}
