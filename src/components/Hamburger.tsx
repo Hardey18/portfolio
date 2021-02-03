@@ -66,6 +66,15 @@ const Hamburger: FC<StateProps> = ({ state }) => {
                       onMouseEnter={(e: any) => handleHover(e)}
                       onMouseOut={(e: any) => handleHoverExit(e)}
                       ref={(el: any) => (line1 = el)}
+                      to='/'>
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      onMouseEnter={(e: any) => handleHover(e)}
+                      onMouseOut={(e: any) => handleHoverExit(e)}
+                      ref={(el: any) => (line2 = el)}
                       to='/about'>
                       About
                     </Link>
@@ -74,18 +83,9 @@ const Hamburger: FC<StateProps> = ({ state }) => {
                     <Link
                       onMouseEnter={(e: any) => handleHover(e)}
                       onMouseOut={(e: any) => handleHoverExit(e)}
-                      ref={(el: any) => (line2 = el)}
+                      ref={(el: any) => (line3 = el)}
                       to='/portfolio'>
                       Portfolio
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      onMouseEnter={(e: any) => handleHover(e)}
-                      onMouseOut={(e: any) => handleHoverExit(e)}
-                      ref={(el: any) => (line3 = el)}
-                      to='/experience'>
-                      Experience
                     </Link>
                   </li>
                   <li>

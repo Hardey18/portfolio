@@ -8,6 +8,7 @@ import Contact from './components/Routes/Contact';
 import Experience from './components/Routes/Experience';
 import Portfolio from './components/Routes/Portfolio';
 import Header from './components/Header';
+import TicTacToe from './components/Routes/portfolio/TicTacToe';
 import Movie from './components/Routes/portfolio/Movie';
 import Factory from './components/Routes/portfolio/Factory';
 import StarWars from './components/Routes/portfolio/StarWars';
@@ -27,6 +28,7 @@ function App() {
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/experience" component={Experience} />
                 <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/portfolio/tictactoe" component={TicTacToe} />
                 <Route exact path="/portfolio/movie" component={Movie} />
                 <Route exact path="/portfolio/factory" component={Factory} />
                 <Route exact path="/portfolio/starwars" component={StarWars} />

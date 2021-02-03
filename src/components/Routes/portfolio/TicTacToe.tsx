@@ -1,20 +1,21 @@
 import React from 'react'
-import movieapp from "../../../images/movieapp.png"
+import ticTacToe from "../../../images/tictactoe.png"
 import Application from '../../reusables/Application'
 
-const Movie = () => {
+const TicTacToe = () => {
     return (
-        <>    
+        <>
             <div>
-                <Application title="MOVIE SEARCH APP" image={movieapp} about="About Product" link="//hardeymovie.netlify.app" />
+                <Application title="TIC TAC TOE" image={ticTacToe} about="About Product" link="//tictactoe.netlify.app" />
             </div>
             <ul className="technologies-list">
                 <li>React</li>
                 <li>TypeScript</li>
+                <li>Framer Motion</li>
                 <li>Styled Components</li>
-            </ul>
+            </ul> 
         </>
     )
 }
 
-export default Movie
+export default TicTacToe

@@ -216,18 +216,18 @@ body {
 
 .top-title {
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 800;
   text-align: center;
   position: relative;
-  &:before {
-    position: absolute;
-    content: "";
-    width: 150px;
-    height: 3px;
-    background: $hotpink;
-    bottom: 0;
-    text-align: center;
-  }
+  // &:before {
+  //   position: absolute;
+  //   content: "";
+  //   width: 150px;
+  //   height: 3px;
+  //   background: $hotpink;
+  //   bottom: 0;
+  //   text-align: center;
+  // }
 }
 @media (max-width: 500px) { 
   .top-title {
@@ -280,6 +280,16 @@ body {
     }
     .right {
       width: 48%;
+      .about-hide-big {
+        p {
+          text-align: center;
+        }
+        .cv {
+          color: $hotpink;
+          font-size: 1.5rem;
+          font-style: italic;
+        }
+      }
       .skill-title {
         text-transform: uppercase;
         font-size: 2rem;
@@ -292,10 +302,16 @@ body {
         color: $midnightblue;
         font-weight: 600;
       }
+    }
+  }
+  .about-hide-small {
+    .your-head {
+      p {
+        text-align: center;
+      }
       .cv {
         color: $hotpink;
         font-size: 1.5rem;
-        font-weight: 800;
         font-style: italic;
       }
     }
@@ -349,7 +365,6 @@ body {
   align-items: center;
   text-align: center;
   grid-gap: 30px;
-  // position: absolute;
   width: 100%;
   margin-left: -48px;
   padding: 48px;
@@ -360,7 +375,6 @@ body {
     position: relative;
     .app-image {
       &:hover {
-        // background: #191919;
         opacity: .5;
         transition: .5s ease-in-out;
       }
@@ -408,7 +422,7 @@ body {
 }
 
 .portfolio-text {
-  // background: $midnightblue;
+  // background: $hotpink;
 }
 
 @media (max-width: 500px) { 
@@ -439,6 +453,7 @@ body {
     h3 {
       font-size: 24px;
       font-weight: lighter;
+      text-align: center;
     }
 
     p {
@@ -466,6 +481,7 @@ body {
         border: none;
         background: #000000;
         box-sizing: border-box;
+        color: #fff;
         padding: 10px 16px;
         position: relative;
         &:focus {
@@ -479,27 +495,24 @@ body {
         text-align: right;
       }
       button {
-        width: 100%;
-        border: none;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        cursor: pointer;
-        margin-top: 40px;
         background: $hotpink;
-        color: $midnightblue;
-        font-weight: bolder;
-        transition: .8s ease-in-out;
-        outline: none;
-        &:hover {
-          border: 2px solid $hotpink;
-          background: $midnightblue;
-          color: $hotpink;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 24px auto;
+        padding: 16px;
+        border: 0;
+        color: white;
+        cursor: pointer;
+        &:disabled {
+          opacity: 0.5;
         }
       }
     }
     .social-title {
-      font-size: 30px;
+      font-size: 24px;
       font-weight: lighter;
+      text-align: center;
     }
     .social {
       display: flex;
@@ -520,6 +533,21 @@ body {
     margin-left: -22px;
     .contact {
       width: 80%;
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media only screen 
+  and (min-width: 500px)
+  and (max-width: 1300px)
+  and (resolution: 150dpi) {
+  .contact {
+    width: 80%;
+    h3 {
+      color: #fff;
     }
   }
 }
@@ -573,22 +601,12 @@ body {
   opacity: 1;
 }
 
-.code-technology {
-  position: relative;
-  // margin-bottom: 5rem;
-  // &:before {
-  //   position: absolute;
-  //   content: "";
-  //   width: 350px;
-  //   height: 1px;
-  //   background: $midnightblue;
-  //   bottom: -20px;
-  // }
-}
 .technologies-list {
   width: 100%;
   background: $midnightblue;
   margin-left: -48px;
   margin-top: -48px;
   padding: 48px;
+  padding-bottom: 16px;
+  margin-bottom: 0;
 }

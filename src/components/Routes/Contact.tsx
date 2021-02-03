@@ -10,14 +10,12 @@ const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
+    const [error, setError] = useState('');
 
-    const [inputError, setInputError] = useState({});
+    const isInvalid = name === '' || email === '' || message === '';
 
     const handleSubmit = (e: any) => {
         e.preventDefault();
-        
-        const isValid = formValidation();
-            if(isValid) {
                 db.collection('contacts').add({
                     name: name,
                     email: email,
@@ -27,26 +25,15 @@ const Contact = () => {
                     alert("Message has been submitted successfully")
                 })
                 .catch((error) => {
-                    alert(error.message)
-                })
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                    setError(error.message);
+                  });
         
                 setName("");
                 setEmail("");
                 setMessage("");
-            }
-        }
-
-    const formValidation = () => {
-        const inputError: any = {}
-        let isValid = true
-        
-        if (name.length === 0 || email.length === 0 || message.length === 0) {
-            inputError.noInput = "No input should be empty"
-            isValid = false;
-        }
-        
-        setInputError(inputError)
-        return isValid
     }
 
     return (
@@ -55,19 +42,17 @@ const Contact = () => {
 
             <div className="contact-container">
                 <div className="contact">  
-                    <h3>Have a question or want to work together</h3>
+                    <h3>Have a question / want to work together?</h3>
 
-                    <form action="" onSubmit={handleSubmit}>
-                        <label htmlFor="full-name">Full Name</label>
-                        <input type="text" id="full-name" name="name" required value={name} onChange={(e) => setName(e.target.value)} /><br/>
-                        <label htmlFor="">Email</label>  
-                        <input type="email" id="email" name="email" required value={email} onChange={(e) => setEmail(e.target.value)} /><br/>
-                        <label htmlFor="">Message</label>
-                        <textarea name="message" id="message" required rows={5} value={message} onChange={(e) => setMessage(e.target.value)} /> 
-                            {/* {Object.keys(inputError).map((key) => {
-                                return <div className="input-error">{inputError[key]}</div>
-                            })} */}
-                        <button type="submit">Submit</button>
+                    <form action="" onSubmit={handleSubmit} method='POST'>
+                        {error && <div>{error}</div>}
+                        <label htmlFor="full-name">Full Name *</label>
+                        <input type="text" id="full-name" required name="name" value={name} onChange={({ target }) => setName(target.value)} /><br/>
+                        <label htmlFor="">Email *</label>  
+                        <input type="email" id="email" required name="email" value={email} onChange={({ target }) => setEmail(target.value)} /><br/>
+                        <label htmlFor="">Message *</label>
+                        <textarea name="message" id="message" required rows={5} value={message} onChange={({ target }) => setMessage(target.value)} />
+                        <button disabled={isInvalid} type="submit">Submit</button>
                     </form>
 
                     <div>
