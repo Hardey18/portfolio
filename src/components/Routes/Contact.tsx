@@ -6,6 +6,7 @@ import Social from '../reusables/Social';
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
+import Footer from '../Footer';
 const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -70,6 +71,7 @@ const Contact = () => {
                             </div>
                     </div>
                 </div>
+            <Footer />
             </div>
         </div>
     )

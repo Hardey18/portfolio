@@ -12,6 +12,8 @@ import TicTacToe from './components/Routes/portfolio/TicTacToe';
 import Movie from './components/Routes/portfolio/Movie';
 import Factory from './components/Routes/portfolio/Factory';
 import StarWars from './components/Routes/portfolio/StarWars';
+import Netflix from './components/Routes/portfolio/Netflix';
+import Amazon from './components/Routes/portfolio/Amazon';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
                 <Route exact path="/portfolio/movie" component={Movie} />
                 <Route exact path="/portfolio/factory" component={Factory} />
                 <Route exact path="/portfolio/starwars" component={StarWars} />
+                <Route exact path="/portfolio/netflix" component={Netflix} />
+                <Route exact path="/portfolio/amazon" component={Amazon} />
               </Switch>
             </div>
           </div>

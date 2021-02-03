@@ -5,6 +5,7 @@ import { IoLogoGameControllerB } from 'react-icons/io';
 import { FaChess } from 'react-icons/fa';
 import { GiMusicalNotes } from 'react-icons/gi';
 import { Link } from "react-router-dom";
+import Footer from '../Footer';
 // import myCv from '../../files/Adewale.pdf'
 
 const About = () => {
@@ -76,6 +77,7 @@ const About = () => {
                             <h4 className="hobby-title">Music</h4>
                         </div>
                     </div>
+                        <Footer />
                 </div>
             </div>
         </>
