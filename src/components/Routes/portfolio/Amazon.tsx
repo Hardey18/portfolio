@@ -9,8 +9,9 @@ function Amazon() {
             </div>
             <ul className="technologies-list">
                 <li>React</li>
-                <li>TypeScript</li>
-                <li>Styled Components</li>
+                <li>JavaScript</li>
+                <li>Stripe</li>
+                <li>Firebase</li>
             </ul>
         </>
     )

@@ -6,7 +6,7 @@ const TicTacToe = () => {
     return (
         <>
             <div>
-                <Application title="TIC TAC TOE" image={ticTacToe} about="About Product" link="//tictactoe.netlify.app" />
+                <Application title="TIC TAC TOE" image={ticTacToe} about="About Product" link="//hardey-tictactoe.netlify.app" />
             </div>
             <ul className="technologies-list">
                 <li>React</li>

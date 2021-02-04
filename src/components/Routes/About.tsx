@@ -43,8 +43,9 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-hide-small">
-                    <p className="about-text">I am a graduate of Building Technology from Lagos State Polytechnic. I have acquired extensive knowledge in the field through the study of Building Production Management. I have previous work experiences in establishing building requirements and also have a flair for design using AutoCAD and Revit.</p>
-                    <p className="about-text">I have strong desire for technology and I wish to build a career in Software Development. I'm currently interning as a Software Engineer for <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://verraki.com" target="_blank" rel="noreferrer">Verraki Partners</a></span>. <br/> I'm a Full-Stack Node Developer from <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span> and my passion is using my technical ability to benefit other people and organizations.</p>
+                    <p className="about-text">I am a Full-Stack Developer currently Interning at <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://verraki.africa" target="_blank" rel="noreferrer">Verraki Partners</a></span>. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines from <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span></p>
+                    <p className="about-text">I am ambitioous and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
+                    <p className="about-text">You can read about my experience, skills, education and more in the PDF attached below</p>
                     <div className="your-head">
                         <p><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>my cv (74kb)</Link></p>
                     </div>

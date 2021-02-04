@@ -11,7 +11,6 @@ const Movie = () => {
             <ul className="technologies-list">
                 <li>React</li>
                 <li>TypeScript</li>
-                <li>Styled Components</li>
             </ul>
         </>
     )

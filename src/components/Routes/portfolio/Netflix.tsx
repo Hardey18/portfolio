@@ -10,8 +10,10 @@ function Netflix() {
             </div>
             <ul className="technologies-list">
                 <li>React</li>
-                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>Firebase</li>
                 <li>Styled Components</li>
+                <li>Jest</li>
             </ul>
         </>
     )

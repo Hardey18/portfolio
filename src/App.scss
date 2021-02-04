@@ -506,6 +506,7 @@ body {
         cursor: pointer;
         &:disabled {
           opacity: 0.5;
+          cursor: auto;
         }
       }
     }
@@ -614,5 +615,4 @@ body {
 .footer {
   margin: 0 auto;
   text-align: center;
-  // background: $midnightblue;
 }
