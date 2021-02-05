@@ -6,6 +6,7 @@ import Social from '../reusables/Social';
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
+import { IoLogoWhatsapp } from 'react-icons/io'
 import Footer from '../Footer';
 const Contact = () => {
     const [name, setName] = useState("")
@@ -59,14 +60,17 @@ const Contact = () => {
                     <div>
                             <h3 className="social-title">Follow Me</h3>
                             <div className="social">
-                                <div>
+                                <div className="social-inner">
                                     <Social link="//linkedin.com/in/adewale-nurudeen-adeola-7a02715a/" icon={<FaLinkedin size={32} />} />
                                 </div>
                                 <div className="social-inner">
                                     <Social link="//twitter.com/AdewaleNurudeen" icon={<FaTwitter size={32} />} />
                                 </div>
-                                <div>
+                                <div className="social-inner">
                                     <Social link="mailto:nurudeenadeolaa@gmail.com" icon={<HiMail size={32} />} />
+                                </div>
+                                <div>
+                                    <Social link="//wa.me/+2349058335192" icon={<IoLogoWhatsapp size={32} />} />
                                 </div>
                             </div>
                     </div>
