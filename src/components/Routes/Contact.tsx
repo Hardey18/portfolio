@@ -43,8 +43,7 @@ const Contact = () => {
 
             <div className="contact-container">
                 <div className="contact">  
-                    <h3>Let's make something special</h3>
-                    <h3>Have a question / want to work together?</h3>
+                    <h3>Let's make something special <br/> Have a question / want to work together?</h3>
 
                     <form action="" onSubmit={handleSubmit} method='POST'>
                         {error && <div>{error}</div>}
