@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1f30be7.chunk.css",
-    "main.js": "/static/js/main.045e161f.chunk.js",
-    "main.js.map": "/static/js/main.045e161f.chunk.js.map",
+    "main.css": "/static/css/main.d93a29d5.chunk.css",
+    "main.js": "/static/js/main.1f14d099.chunk.js",
+    "main.js.map": "/static/js/main.1f14d099.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a771668f.js",
     "runtime-main.js.map": "/static/js/runtime-main.a771668f.js.map",
-    "static/js/2.b15f942c.chunk.js": "/static/js/2.b15f942c.chunk.js",
-    "static/js/2.b15f942c.chunk.js.map": "/static/js/2.b15f942c.chunk.js.map",
+    "static/js/2.f58cdcd6.chunk.js": "/static/js/2.f58cdcd6.chunk.js",
+    "static/js/2.f58cdcd6.chunk.js.map": "/static/js/2.f58cdcd6.chunk.js.map",
     "static/js/3.f00ffa4b.chunk.js": "/static/js/3.f00ffa4b.chunk.js",
     "static/js/3.f00ffa4b.chunk.js.map": "/static/js/3.f00ffa4b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a1f30be7.chunk.css.map": "/static/css/main.a1f30be7.chunk.css.map",
-    "static/js/2.b15f942c.chunk.js.LICENSE.txt": "/static/js/2.b15f942c.chunk.js.LICENSE.txt",
-    "static/media/ADEWALE.5e421d51.jpg": "/static/media/ADEWALE.5e421d51.jpg",
-    "static/media/amazon.d74bb213.png": "/static/media/amazon.d74bb213.png",
-    "static/media/movieapp.ab88a1d1.png": "/static/media/movieapp.ab88a1d1.png",
-    "static/media/netflix.03146e9e.png": "/static/media/netflix.03146e9e.png",
+    "static/css/main.d93a29d5.chunk.css.map": "/static/css/main.d93a29d5.chunk.css.map",
+    "static/js/2.f58cdcd6.chunk.js.LICENSE.txt": "/static/js/2.f58cdcd6.chunk.js.LICENSE.txt",
+    "static/media/ADEWALE.217ac570.jpg": "/static/media/ADEWALE.217ac570.jpg",
+    "static/media/amazon.10ebbb7b.png": "/static/media/amazon.10ebbb7b.png",
+    "static/media/movieapp.94990db4.png": "/static/media/movieapp.94990db4.png",
+    "static/media/netflix.fb75829c.png": "/static/media/netflix.fb75829c.png",
     "static/media/nurudeen.8029f071.png": "/static/media/nurudeen.8029f071.png",
-    "static/media/product.cce41d36.png": "/static/media/product.cce41d36.png",
-    "static/media/starwars.cce1f491.png": "/static/media/starwars.cce1f491.png",
-    "static/media/tictactoe.345cbfab.png": "/static/media/tictactoe.345cbfab.png"
+    "static/media/product.673e201f.png": "/static/media/product.673e201f.png",
+    "static/media/starwars.5623c5e0.png": "/static/media/starwars.5623c5e0.png",
+    "static/media/tictactoe.54d643dd.png": "/static/media/tictactoe.54d643dd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a771668f.js",
-    "static/js/2.b15f942c.chunk.js",
-    "static/css/main.a1f30be7.chunk.css",
-    "static/js/main.045e161f.chunk.js"
+    "static/js/2.f58cdcd6.chunk.js",
+    "static/css/main.d93a29d5.chunk.css",
+    "static/js/main.1f14d099.chunk.js"
   ]
 }
