@@ -7,11 +7,14 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 import Footer from '../Footer';
+import { Modal } from '../reusables/Modal';
 const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
     const [error, setError] = useState('');
+    const [isModalOpen, setModalState] = useState(false);
+    const toggleModal = () => setModalState(!isModalOpen);
 
     const isInvalid = name === '' || email === '' || message === '';
 
@@ -23,7 +26,7 @@ const Contact = () => {
                     message: message,
                 })
                 .then(() => {
-                    alert("Message has been submitted successfully")
+                    console.log("object")
                 })
                 .catch((error) => {
                     setName('');
@@ -43,7 +46,7 @@ const Contact = () => {
 
             <div className="contact-container">
                 <div className="contact">  
-                    <h3>Let's make something special <br/> Have a question or want to work together?</h3>
+                    <h3>LET'S MAKE SOMETHING SPECIAL <br/> Have a question or want to work together?</h3>
 
                     <form action="" onSubmit={handleSubmit} method='POST'>
                         {error && <div>{error}</div>}
@@ -53,8 +56,10 @@ const Contact = () => {
                         <input type="email" id="email" required name="email" value={email} onChange={({ target }) => setEmail(target.value)} /><br/>
                         <label htmlFor="">Message *</label>
                         <textarea name="message" id="message" required rows={5} value={message} onChange={({ target }) => setMessage(target.value)} />
-                        <button disabled={isInvalid} type="submit">Submit</button>
+                        <button onClick={toggleModal} disabled={isInvalid} type="submit">Submit</button>
                     </form>
+
+                    <Modal isOpen={isModalOpen} onClose={toggleModal} />
 
                     <div>
                             <h3 className="social-title">Follow Me</h3>
