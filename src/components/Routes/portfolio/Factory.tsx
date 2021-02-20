@@ -6,7 +6,12 @@ const Factory = () => {
     return (
         <>
             <div>
-                <Application title="FACTORY LANDING PAGE" image={product} about="About Product" link="//hardeyproduct.netlify.app" />
+                <Application 
+                    title="FACTORY LANDING PAGE" 
+                    image={product} 
+                    about="A static landing page built with HTML, CSS, and a touch of JavaScript with a full mobile responsiveness." 
+                    link="//hardeyproduct.netlify.app" 
+                />
             </div>
             <ul className="technologies-list">
                 <li>HTML</li>

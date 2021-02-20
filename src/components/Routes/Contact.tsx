@@ -26,7 +26,8 @@ const Contact = () => {
                     message: message,
                 })
                 .then(() => {
-                    console.log("object")
+                    console.log("object");
+                    setModalState(!isModalOpen);
                 })
                 .catch((error) => {
                     setName('');
@@ -56,7 +57,7 @@ const Contact = () => {
                         <input type="email" id="email" required name="email" value={email} onChange={({ target }) => setEmail(target.value)} /><br/>
                         <label htmlFor="">Message *</label>
                         <textarea name="message" id="message" required rows={5} value={message} onChange={({ target }) => setMessage(target.value)} />
-                        <button onClick={toggleModal} disabled={isInvalid} type="submit">Submit</button>
+                        <button disabled={isInvalid} type="submit">Submit</button>
                     </form>
 
                     <Modal isOpen={isModalOpen} onClose={toggleModal} />

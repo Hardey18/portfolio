@@ -6,7 +6,12 @@ const StarWars = () => {
     return (
         <>
             <div>
-                <Application title="FACTORY LANDING PAGE" image={starwars} about="About Product" link="//starwarzapi.netlify.app" />
+                <Application 
+                    title="FACTORY LANDING PAGE" 
+                    image={starwars} 
+                    about="A page built with HTML, CSS and JavaScript with a full mobile responsiveness. It displays the characters of Star Wars alongside a dummy image. Clicking on each image will pop up a modal showing Image, Name, Gender and Height" 
+                    link="//starwarzapi.netlify.app" 
+                />
             </div>
             <ul className="technologies-list">
                 <li>HTML</li>

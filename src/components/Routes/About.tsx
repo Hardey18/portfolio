@@ -10,15 +10,16 @@ import Footer from '../Footer';
 
 const About = () => {
     const skills = [
-        { name: "HTML", level: "90%" },
-        { name: "CSS & SASS", level: "90%" },
-        { name: "JavaScript & TypeScript", level: "85%" },
-        { name: "React", level: "75%" },
-        { name: "Angular", level: "75%" },
-        { name: "Express", level: "75%" },
-        { name: "MongoDB & PostgreSQL", level: "75%" },
-        { name: "Agile Methodologies", level: "75%" },
-        { name: "Git and Github", level: "75%" },
+        { name: "HTML"},
+        { name: "CSS" },
+        { name: "SASS" },
+        { name: "JavaScript & TypeScript" },
+        { name: "React" },
+        { name: "Angular" },
+        { name: "Express" },
+        { name: "MongoDB & PostgreSQL" },
+        { name: "Agile Methodologies" },
+        { name: "Git and Github" },
       ];
     return (
         <>
