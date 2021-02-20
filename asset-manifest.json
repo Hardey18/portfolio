@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d93a29d5.chunk.css",
-    "main.js": "/static/js/main.1f14d099.chunk.js",
-    "main.js.map": "/static/js/main.1f14d099.chunk.js.map",
+    "main.js": "/static/js/main.31299b89.chunk.js",
+    "main.js.map": "/static/js/main.31299b89.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a771668f.js",
     "runtime-main.js.map": "/static/js/runtime-main.a771668f.js.map",
     "static/js/2.f58cdcd6.chunk.js": "/static/js/2.f58cdcd6.chunk.js",
@@ -13,18 +13,18 @@
     "static/css/main.d93a29d5.chunk.css.map": "/static/css/main.d93a29d5.chunk.css.map",
     "static/js/2.f58cdcd6.chunk.js.LICENSE.txt": "/static/js/2.f58cdcd6.chunk.js.LICENSE.txt",
     "static/media/ADEWALE.217ac570.jpg": "/static/media/ADEWALE.217ac570.jpg",
-    "static/media/amazon.10ebbb7b.png": "/static/media/amazon.10ebbb7b.png",
-    "static/media/movieapp.94990db4.png": "/static/media/movieapp.94990db4.png",
-    "static/media/netflix.fb75829c.png": "/static/media/netflix.fb75829c.png",
+    "static/media/amazon.afc78ec7.png": "/static/media/amazon.afc78ec7.png",
+    "static/media/movieapp.78bab5b4.png": "/static/media/movieapp.78bab5b4.png",
+    "static/media/netflix.4ced971a.png": "/static/media/netflix.4ced971a.png",
     "static/media/nurudeen.8029f071.png": "/static/media/nurudeen.8029f071.png",
-    "static/media/product.673e201f.png": "/static/media/product.673e201f.png",
-    "static/media/starwars.5623c5e0.png": "/static/media/starwars.5623c5e0.png",
-    "static/media/tictactoe.54d643dd.png": "/static/media/tictactoe.54d643dd.png"
+    "static/media/product.de8246a7.png": "/static/media/product.de8246a7.png",
+    "static/media/starwars.fa1256c4.png": "/static/media/starwars.fa1256c4.png",
+    "static/media/tictactoe.4e0820a6.png": "/static/media/tictactoe.4e0820a6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a771668f.js",
     "static/js/2.f58cdcd6.chunk.js",
     "static/css/main.d93a29d5.chunk.css",
-    "static/js/main.1f14d099.chunk.js"
+    "static/js/main.31299b89.chunk.js"
   ]
 }
