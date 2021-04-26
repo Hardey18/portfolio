@@ -31,9 +31,8 @@ const About = () => {
                     </div>
                     <div className="right">
                         <div className="about-hide-big">
-                        <p className="about-text">I'm currently interning at <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://verraki.africa" target="_blank" rel="noreferrer">Verraki Partners</a></span> as a Full-Stack Developer. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines from <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span></p>
+                        <p className="about-text">I am a Graduate of <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span>, where I currently work as an Associate Software Engineer and I base in Lagos. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
                         <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
-                        <p className="about-text">You can read about my experience, skills, education and more in the PDF attached below</p>
                             <p><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>my cv (74kb)</Link></p>
                         </div>
                         <h4 className="skill-title">Skill Set</h4>
@@ -45,9 +44,8 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-hide-small">
-                <p className="about-text">I'm currently interning at <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://verraki.africa" target="_blank" rel="noreferrer">Verraki Partners</a></span> as a Full-Stack Developer. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines from <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span></p>
+                    <p className="about-text">I am a Graduate of <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span>, where I currently work as an Associate Software Engineer and I base in Lagos. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
                     <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
-                    <p className="about-text">You can read about my experience, skills, education and more in the PDF attached below</p>
                     <div className="your-head">
                         <p><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>my cv (74kb)</Link></p>
                     </div>
