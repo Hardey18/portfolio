@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className="right">
                         <div className="about-hide-big">
-                        <p className="about-text">I love building user interfaces, developing web contents and I care a whole lot about design. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
+                        <p className="about-text">I love building user interfaces, developing web contents, care a whole lot about design and also enjoy working on database. I have passion for Technology. I am talented with experiences in wide range of technology desciplines.</p>
                         <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
                         </div>
                         <h4 className="skill-title">Skill Set</h4>
@@ -42,7 +42,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-hide-small">
-                    <p className="about-text">I love building user interfaces, developing web contents and I care a whole lot about design. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
+                    <p className="about-text">I love building user interfaces, developing web contents, care a whole lot about design and also enjoy working on database. I have passion for Technology. I am talented with experiences in wide range of technology desciplines.</p>
                     <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
                 </div>
                 <div>
