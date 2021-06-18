@@ -15,10 +15,10 @@ const About = () => {
         { name: "JavaScript & TypeScript" },
         { name: "React" },
         { name: "Angular" },
-        { name: "Express" },
-        { name: "MongoDB & PostgreSQL" },
+        { name: "RestAPI & GraphQL" },
+        { name: "MongoDB & Postgres" },
         { name: "Agile Methodologies" },
-        { name: "Git and Github" },
+        { name: "Git" }
       ];
     return (
         <>
