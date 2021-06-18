@@ -2,11 +2,10 @@ import React from 'react'
 import profile from "../../images/ADEWALE.jpg"
 import { MdMovie } from 'react-icons/md';
 import { IoLogoGameControllerB } from 'react-icons/io';
-import { FaChess } from 'react-icons/fa';
+import { FaFirefoxBrowser } from 'react-icons/fa';
 import { GiMusicalNotes } from 'react-icons/gi';
 import { Link } from "react-router-dom";
 import Footer from '../Footer';
-// import myCv from '../../files/Adewale.pdf'
 
 const About = () => {
     const skills = [
@@ -85,9 +84,9 @@ const About = () => {
                         </div>
                         <div className="each-hobby">
                             <div className="hobby-icon">
-                                <FaChess size={60} color="#1b1b32" />
+                                <FaFirefoxBrowser size={60} color="#1b1b32" />
                             </div>
-                            <h4 className="hobby-title">Chess</h4>
+                            <h4 className="hobby-title">Surfing The Net</h4>
                         </div>
                         <div className="each-hobby">
                             <div className="hobby-icon">

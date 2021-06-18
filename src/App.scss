@@ -20,46 +20,51 @@ body {
     margin: 0 auto;
     .wrapper {
       padding: 0 48px;
-      .home {
-        height: 100%;
-        width: 100%;
-        .home-header-top {
-          margin-top: 150px;
-          font-size: 44px;
-          font-weight: 300;
-          text-align: center;
-        }
+      height: 100%;
+      // width: 100%;
+      .home-header-top {
+        margin-top: 200px;
+        font-size: 44px;
+        font-weight: 300;
+        text-align: center;
+      }
+      .desc-container {
+        text-align: center;
         .home-header {
           font-size: 44px;
           font-weight: 300;
-          text-align: center;
           .name {
             // color: rgb(9, 48, 156);
             font-size: 54px;
           }
         }
+        .home-title {
+          font-weight: lighter;
+        }
       }
     }
     @media (max-width: 500px) { 
-      .wrapper {
-        padding: 0 20px;
-        margin-top: -10px;
-        .home-header {
-          font-size: 24px;
-          font-size: 12px;
-        }
-      }
-    }
-    @media (max-width: 380px) { 
-      .wrapper {
-        .home-header-top {
-          // margin-top: 100px;
-          // color: blue;
-        }
-        .home-header {
-          font-size: 22px;
-          .name {
-            font-size: 320px;
+      .container {
+        .wrapper {
+          padding: 0 8px;
+          margin-top: -10px;
+          .home-header-top {
+            text-align: left;
+            // color: green;
+          }
+          .desc-container {
+            text-align: left;
+            .home-header {
+              width: 100%;
+              font-size: 38px;
+              // font-size: 12px;
+              .name {
+                // font-size: 38px;
+              }
+            }
+            .home-title {
+              font-size: 22px;
+            }
           }
         }
       }

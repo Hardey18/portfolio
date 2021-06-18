@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 import { db } from '../../firebase';
 import Social from '../reusables/Social';
 
-import { FaTwitter } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
-import { HiMail } from 'react-icons/hi'
+import { FiTwitter } from 'react-icons/fi'
+import { FiLinkedin } from 'react-icons/fi'
+import { FiGithub } from 'react-icons/fi'
+import { MdMailOutline } from 'react-icons/md'
 import Footer from '../Footer';
 import { Modal } from '../reusables/Modal';
 const Contact = () => {
@@ -66,13 +67,16 @@ const Contact = () => {
                             <h3 className="social-title">Follow Me</h3>
                             <div className="social">
                                 <div className="social-inner">
-                                    <Social link="//linkedin.com/in/adewale-nurudeen-adeola-7a02715a/" icon={<FaLinkedin size={32} />} />
+                                    <Social link="//github.com/Hardey18" icon={<FiGithub size={32} />} />
                                 </div>
                                 <div className="social-inner">
-                                    <Social link="//twitter.com/AdewaleNurudeen" icon={<FaTwitter size={32} />} />
+                                    <Social link="//linkedin.com/in/adewale-nurudeen-adeola-7a02715a/" icon={<FiLinkedin size={32} />} />
+                                </div>
+                                <div className="social-inner">
+                                    <Social link="//twitter.com/AdewaleNurudeen" icon={<FiTwitter size={32} />} />
                                 </div>
                                 <div>
-                                    <Social link="mailto:nurudeenadeolaa@gmail.com" icon={<HiMail size={32} />} />
+                                    <Social link="mailto:nurudeenadeolaa@gmail.com" icon={<MdMailOutline size={32} />} />
                                 </div>
                             </div>
                     </div>

@@ -5,13 +5,15 @@ const Home = () => {
         <>
             <div className="container">
                 <div className="wrapper">
-                    <h1 className="home-header-top">
+                    <div className="home-header-top">
                         Hi, I'm
-                    </h1>
-                    <h1 className="home-header">
-                        <span className="name"><b>NURUDEEN ADEWALE.</b></span><br/>
-                        Software Engineer.
-                    </h1>
+                    </div>
+                    <div className="desc-container">
+                        <div className="home-header">
+                            <div className="name"><b>NURUDEEN ADEWALE.</b></div>
+                        </div>
+                        <div className="home-title">Software Engineer.</div>
+                    </div>
                 </div>
             </div> 
         </>
