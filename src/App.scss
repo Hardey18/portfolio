@@ -43,28 +43,29 @@ body {
         }
       }
     }
-    @media (max-width: 500px) { 
-      .container {
-        .wrapper {
-          padding: 0 8px;
-          margin-top: -10px;
-          .home-header-top {
-            text-align: left;
-            // color: green;
+  }
+  @media (max-width: 500px) { 
+    .container {
+      width: 100%;
+      .wrapper {
+        padding: 0 20px;
+        margin-top: -10px;
+        .home-header-top {
+          text-align: left;
+          // color: green;
+        }
+        .desc-container {
+          text-align: left;
+          .home-header {
+            width: 100%;
+            font-size: 38px;
+            // font-size: 12px;
+            .name {
+              // font-size: 38px;
+            }
           }
-          .desc-container {
-            text-align: left;
-            .home-header {
-              width: 100%;
-              font-size: 38px;
-              // font-size: 12px;
-              .name {
-                // font-size: 38px;
-              }
-            }
-            .home-title {
-              font-size: 22px;
-            }
+          .home-title {
+            font-size: 22px;
           }
         }
       }
