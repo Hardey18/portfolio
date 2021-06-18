@@ -24,7 +24,7 @@ body {
         height: 100%;
         width: 100%;
         .home-header-top {
-          margin-top: 200px;
+          margin-top: 150px;
           font-size: 44px;
           font-weight: 300;
           text-align: center;
@@ -44,22 +44,22 @@ body {
       .wrapper {
         padding: 0 20px;
         margin-top: -10px;
-        .home {
-          .home-header {
-            font-size: 24px;
-            margin-top: 160px;
-          }
+        .home-header {
+          font-size: 24px;
+          font-size: 12px;
         }
       }
     }
-    @media (max-width: 350px) { 
+    @media (max-width: 380px) { 
       .wrapper {
-        .home {
-          .home-header {
-            font-size: 22px;
-            .name {
-              font-size: 32px;
-            }
+        .home-header-top {
+          // margin-top: 100px;
+          // color: blue;
+        }
+        .home-header {
+          font-size: 22px;
+          .name {
+            font-size: 320px;
           }
         }
       }
