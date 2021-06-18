@@ -31,9 +31,8 @@ const About = () => {
                     </div>
                     <div className="right">
                         <div className="about-hide-big">
-                        <p className="about-text">I am a Graduate of <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span>, where I currently work as an Associate Software Engineer and I base in Lagos. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
+                        <p className="about-text">I love building user interfaces, developing web contents and I care a whole lot about design. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
                         <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
-                            <p><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>my cv (74kb)</Link></p>
                         </div>
                         <h4 className="skill-title">Skill Set</h4>
                         {skills.map(el => (
@@ -44,14 +43,33 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-hide-small">
-                    <p className="about-text">I am a Graduate of <span><a style={{color:"#e84ca6", fontWeight: "bolder"}} href="http://decagonhq.com" target="_blank" rel="noreferrer">Decagon</a></span>, where I currently work as an Associate Software Engineer and I base in Lagos. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
+                    <p className="about-text">I love building user interfaces, developing web contents and I care a whole lot about design. I have passion for Technology. I am talented with experiences in wide range of Technology desciplines.</p>
                     <p className="about-text">I am ambitious and driven. I thrive on challenge and constantly set goals from my ability to benefit people and organization while having something to strive towards.</p>
-                    <div className="your-head">
-                        <p><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>my cv (74kb)</Link></p>
-                    </div>
                 </div>
                 <div>
-                <h4 className="hobbies-title">Hobbies</h4>
+                <h4 className="resume-title">RESUME</h4>
+                <div className="resume-wrapper">
+                    <div>
+                        <div className="resume-desc">Work Experience</div>
+                        <div className="org-name">Decagon</div>
+                        <div>Software Engineer</div>
+                        <div className="work-duration">2020 - PRESENT</div>
+                        
+                        <div className="org-name">Verraki</div>
+                        <div>Software Engineer</div>
+                        <div>2020 - 2021</div>
+                    </div>
+                    <div>
+                        <div className="resume-desc">Education</div>
+                        <div className="org-name">Lagos State Polytechnic</div>
+                        <div>HND, Building Technology</div>
+                        <div>2012 - 2016</div>
+                    </div>
+                </div>
+
+                <div className="cv-download"><Link className="cv" to='/files/Adewale.pdf' target="_blank" download>Download Resume</Link></div>
+
+                <h4 className="hobbies-title">Other Activities</h4>
                     <div className="hobbies">
                         <div className="each-hobby">
                             <div className="hobby-icon">

@@ -60,7 +60,7 @@ const Header = ({ history }: any) => {
 
   return (
     <header>
-    <ParticlesBg num={100} type="lines" bg={true} />
+    <ParticlesBg num={150} type="cobweb" bg={true} color="red" />
       <div className="container">
         <div className="wrapper">
           <div className="inner-header">
